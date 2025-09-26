@@ -44,7 +44,6 @@ function mousePressed() {
 
 function nytTegn() {
     let tal = Math.random() * 3;
-
     if (tal < 1) {
         tegn = "+";
     } else if (tal < 2) {
@@ -55,8 +54,8 @@ function nytTegn() {
 
     x = Math.floor(Math.random() * 99 + 1);
     y = Math.floor(Math.random() * 99 + 1);
-    tal = Math.random() * 2;
 
+    tal = Math.random() * 2;
     if (tal < 1) {
         svar1 = eval(x + tegn + y);
         svar2 = Math.floor(Math.random() * 198 + 1);
