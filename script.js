@@ -51,7 +51,7 @@ function nytTegn() {
         tegn = "-";
     } else {
         tegn = "*";
-        limit = 14;
+        limit = 19;
     }
 
     x = Math.floor(Math.random() * limit + 1);
