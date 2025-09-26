@@ -44,16 +44,18 @@ function mousePressed() {
 
 function nytTegn() {
     let tal = Math.random() * 3;
+    let limit = 99;
     if (tal < 1) {
         tegn = "+";
     } else if (tal < 2) {
         tegn = "-";
     } else {
         tegn = "*";
+        limit = 14;
     }
 
-    x = Math.floor(Math.random() * 99 + 1);
-    y = Math.floor(Math.random() * 99 + 1);
+    x = Math.floor(Math.random() * limit + 1);
+    y = Math.floor(Math.random() * limit + 1);
 
     tal = Math.random() * 2;
     if (tal < 1) {
